@@ -12,15 +12,15 @@ https://hub.docker.com/repository/docker/amw8711/hw1_hello_world
 - Tag the container for use on Google's Container Registry
 - Push the Docker image to the Container Registry for use in the cloud
 
-![GCP1](Docker/Screenshots/Part1-1.png)
+![GCP1](Screenshots/Part1-1.png)
 
 The second screenshot shows the container's output after being run on GCP.
 
-![GCP2](Docker/Screenshots/Part1-2.png)
+![GCP2](Screenshots/Part1-2.png)
 
 3. Below are the contents of the Dockerfile and the Python file used to make the container.
 
-### [Dockerfile](Docker/Dockerfile)
+### [Dockerfile](Dockerfile)
 
 ```
 FROM python:3.9.7
@@ -29,7 +29,7 @@ WORKDIR /usr/src/hw1
 CMD ["python3", "hello_world.py"]
 ```
 
-### Source file ([hello_world.py](Docker/hello_world.py))
+### Source file ([hello_world.py](hello_world.py))
 
 ```py
 print("Hello world... in Python using Docker!")
@@ -39,4 +39,4 @@ print("Hello world... in Python using Docker!")
 
 Here is the screenshot of running the MMLSpark image.
 
-![MMLSpark](Docker/Screenshots/Part2.png)
+![MMLSpark](Screenshots/Part2.png)

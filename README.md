@@ -3,7 +3,7 @@ University of Pittsburgh CS 1660 Cloud Computing Homework 2 involving Docker, Ku
 
 ## Part 1
 
-1. This is the link to the "Hello World" Docker image made and available on Docker Hub.
+1. This is the link to the "Hello World" Docker image made by me and available on Docker Hub.
 
 https://hub.docker.com/repository/docker/amw8711/hw1_hello_world
 
@@ -29,7 +29,7 @@ WORKDIR /usr/src/hw1
 CMD ["python3", "hello_world.py"]
 ```
 
-### Source file (hello_world.py)
+### Source file ([hello_world.py](Docker/hello_world.py))
 
 ```py
 print("Hello world... in Python using Docker!")
