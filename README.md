@@ -5,7 +5,7 @@ University of Pittsburgh CS 1660 Cloud Computing Homework 2 involving Docker, Ku
 
 1. This is the link to the "Hello World" Docker image made by me and available on Docker Hub.
 
-https://hub.docker.com/repository/docker/amw8711/hw1_hello_world
+https://hub.docker.com/r/amw8711/hw1_hello_world
 
 2. The first screenshot shows the Docker commands used to 
 - Pull the container image from Docker Hub onto the Google Cloud Shell VM
