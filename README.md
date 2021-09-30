@@ -39,4 +39,10 @@ print("Hello world... in Python using Docker!")
 
 Here is the screenshot of running the MMLSpark image.
 
-![MMLSpark](Docker/Screenshots/Part2.png)
+![MMLSpark](Screenshots/Part2.png)
+
+## Extra Credit
+
+Here is a screenshot of a Kubernetes cluster on GCP running the Docker image.
+
+![EC](Screenshots/EC.png)
